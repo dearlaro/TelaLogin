@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="cadeado.png" />
+    <None Remove="chave.png" />
+    <None Remove="icone-email.png" />
+    <None Remove="por-do-sol-bonito-5773000.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="cadeado.png" />
+    <Resource Include="chave.png" />
+    <Resource Include="icone-email.png" />
+    <Resource Include="por-do-sol-bonito-5773000.jpg" />
+  </ItemGroup>
+
+</Project>
